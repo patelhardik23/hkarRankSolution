@@ -52,27 +52,30 @@ body {
 /*----------------------------------------------Header end-------------------------------------*/
 
 /*----------------------------------------------Body Content-------------------------------------*/
-.contentRow2{
+.contentRow2 {
 	display: block;
 	width: 960px;
 	margin: 0 auto;
 	padding: 0;
 	text-align: justify;
 }
-#logo{
+
+#logo {
 	margin: 30px 0 30px 0;
 	padding: 0 0 0 0;
 }
 /*------------------left column start ------------------------*/
-#left_column{
+#left_column {
 	float: left;
 	width: 280px;
 }
+
 .title {
 	margin-bottom: 10px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #DEDEDE;
 }
+
 .contentRow2 nav li {
 	display: block;
 	width: 100%;
@@ -81,33 +84,36 @@ body {
 	text-transform: uppercase;
 	border-bottom: 1px solid #DEDEDE;
 }
-#contact{
+
+#contact {
 	margin-top: 15px;
 	padding-top: 15px;
 	border-bottom: 1px solid #DEDEDE;
 }
-#left_column p{
+
+#left_column p {
 	width: 80%;
 	margin: 5px 0 5px 0;
 	padding: 10px 0 10px 0;
 }
 /*------------------left column end-------------------------*/
 /*------------------main content start ------------------------*/
-
 #content {
 	float: right;
 	width: 630px;
 	line-height: 1.6em;
 }
-#content article{
+
+#content article {
 	margin-bottom: 30px;
 }
-#content article img{
+
+#content article img {
 	margin-top: 30px;
 	margin-left: auto;
 	margin-bottom: 20px;
 	margin-right: auto;
-	text-align:center;
+	text-align: center;
 	height: 478px;
 	width: 508px;
 }
@@ -130,6 +136,7 @@ a {
 	outline: none;
 	text-decoration: none;
 }
+
 a:hover {
 	color: #FF9900;
 	background-color: #FFFFFF;
@@ -155,3 +162,51 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------Common end----------------------------------------*/
+
+/*---------------------------------------------Table Property-----------------------------------*/
+.contactTable {
+	border-radius: 5px;
+	padding: 20px;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+.col1 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col2 {
+	float: left;
+	width: 70%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
